@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="18258790627" />
+        android:text="15824524127" />
 
     <TextView
         android:id="@+id/textView2"
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="1999112233" />
+        android:text="xuhanw" />
 
     <Button
         android:id="@+id/button"

@@ -135,7 +135,7 @@ public class MainActivity extends Activity {
                 HttpURLConnection connection = null;
                 BufferedReader reader = null;
                 try {
-                    URL url = new URL("http://api.nlecloud.com/Cmds?deviceId=60828&apiTag="+ApiTag+"&AccessToken="+Token);
+                    URL url = new URL("http://api.nlecloud.com/Cmds?deviceId=38495&apiTag="+ApiTag+"&AccessToken="+Token);
                     connection = (HttpURLConnection) url.openConnection();
                     connection.setRequestMethod("POST");
                     connection.setRequestProperty("connection", "Keep-Alive");
@@ -169,23 +169,23 @@ public class MainActivity extends Activity {
 
     public void b2_click(View view)
     {
-        GET("http://api.nlecloud.com/Projects/47497/Sensors?AccessToken="+Token,2);
+        GET("http://api.nlecloud.com/Projects/32352/Sensors?AccessToken="+Token,2);
         //Sensor();
     }
 
     public void b3_click(View view)
     {
-        GET("http://api.nlecloud.com/Devices/Status?devIds=60828&AccessToken="+Token,3);
+        GET("http://api.nlecloud.com/Devices/Status?devIds=38495&AccessToken="+Token,3);
     }
 
     public void b4_click(View view)
     {
-        POST("fen","1");
+        POST("fan","1");
     }
 
     public void b5_click(View view)
     {
-        POST("fen","0");
+        POST("fan","0");
     }
 
     public void b6_click(View view)
@@ -200,12 +200,12 @@ public class MainActivity extends Activity {
 
     public void b8_click(View view)
     {
-        GET("http://api.nlecloud.com/devices/60828/Sensors/z_temperature?AccessToken="+Token,5);
+        GET("http://api.nlecloud.com/devices/38495/Sensors/z_temperature?AccessToken="+Token,5);
     }
 
     public void b9_click(View view)
     {
-        GET("http://api.nlecloud.com/devices/60828/Sensors/z_humidity?AccessToken="+Token,5);
+        GET("http://api.nlecloud.com/devices/38495/Sensors/z_humidity?AccessToken="+Token,5);
     }
 
 }

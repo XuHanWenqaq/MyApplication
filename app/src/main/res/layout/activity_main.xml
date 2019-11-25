@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="b2_click"
-                android:text="所有设备查询" />
+                android:text="查询所有设备" />
 
         </LinearLayout>
 
@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="b3_click"
-                android:text="查询设备在线状态" />
+                android:text="查询设备是否在线" />
 
         </LinearLayout>
 
